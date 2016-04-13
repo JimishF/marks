@@ -160,6 +160,7 @@ $(document).ready(function () {
 		}
 
 		$("#action").prop("disabled",true);
+		$("#action").addClass("disabled");
 		$("#apply").show();
 
 
