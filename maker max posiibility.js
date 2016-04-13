@@ -169,13 +169,9 @@ $(document).ready(function () {
 			 		var dataArr = getEqual	( myVal );
 					 
 			 		var self = $(this);
-			 			self.append('<div class="col "></div>');
-			 		
-			 		var selfDiv = self.find("div");
-
 			 		
 			 		$.each( dataArr , function( index, value ) {					
-			 			selfDiv.append("<td>"+ dataArr[index] +"</td>");
+			 			self.append("<td>"+ dataArr[index] +"</td>");
 
 					});
 
